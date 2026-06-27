@@ -379,9 +379,10 @@ def manifestacao_sobrenatural(pistas, ato):
 # FLUXO PRINCIPAL DO PROGRAMA
 # ==========================================
 
-print('SINS\n')
+
+print('[bold red ]SINS\n')
 musica = play('musica-menu.wav', async_mode=True, loop=True)
-print('Menu\n1 - Começar Jogo \n2 - dlc \n3 - Sair')
+print('[bold]Menu\n1 - Começar Jogo \n[/bold]2 - dlc[bold] \n3 - Sair')
 
 try:
     menu = int(input('Digite o número da sua escolha\nR: '))
